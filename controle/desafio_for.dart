@@ -1,5 +1,5 @@
 void main() {
-  for (String a = '#'; a != '######'; a += '#') {
+  for (String a = '#'; a != '#######'; a += '#') {
     print(a);
   }
 }
