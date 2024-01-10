@@ -1,8 +1,9 @@
 class Carro {
-  final int velocidadeMaxima;
-  int _velocidadeAtual = 0;
-
   Carro({required this.velocidadeMaxima});
+
+  final int velocidadeMaxima;
+
+  int _velocidadeAtual = 0;
 
   int get velocidadeAtual => _velocidadeAtual;
 
